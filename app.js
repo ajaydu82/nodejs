@@ -19,6 +19,10 @@ app.use((req,res,next)=>{
  //res.writeHead(200,{'Content-Type':'application/json'})
  next();
 })
+app.use("/",(req,res,next)=>{
+    res.send("connected")
+    next()
+})
 app.use("/auth",auth);
 app.use("/product",AuthMiddleware.isValidToken,product);
 app.use("/crud",AuthMiddleware.isValidToken,crud);
