@@ -2,7 +2,7 @@
 const connectDB = require("../config/db")
 const validation = require("../constant/Constant");
 const message = require("../constant/Message");
-const constant=require("../constant/constant")
+const constant=require("../constant/Constant")
 module.exports = {
     //    signUp:async function(signupData){
     //   const database =  await connectDB()

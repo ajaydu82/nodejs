@@ -20,7 +20,7 @@ app.use((req,res,next)=>{
  next();
 })
 app.use("/",(req,res,next)=>{
-    res.send("connected")
+    // res.send("connected")
     next()
 })
 app.use("/auth",auth);
