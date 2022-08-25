@@ -23,7 +23,7 @@ return response.json(result)
 })
 // router.get("/geting", async (request, response) => {
 //     const result = await employee.getuser();
-//     response.json(result)
+//     response.json(resul7t)
 //     // console.log(response);
 //     // response.send({name:"ajay"})
 // })
